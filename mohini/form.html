@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/form.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="styles/form.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+            <h2> contact from here!!</h2>
+            <label for="fname" class="label">First Name</label><br>
+            <label for="fname" class="label error" id="fname_error"></label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter First Name" onkeydown="clearError()"><br>
+        
+            <label for="lname" class="label">Last Name</label><br>
+            <label for="lname" class="label error" id="lname_error"></label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter Last Name" onkeydown="clearError()"><br>
+
+            <label for="email" class="label">Email</label><br>
+            <label for="email" class="label error" id="email_error"></label>
+            <input type="text" id="email" name="email" placeholder="Enter Email-address" onkeydown="clearError()"><br>
+
+            <label for="message" class="label">Message</label><br>
+            <label for="message" class="label error" id="message_error" onkeydown="clearError()"></label>
+            <textarea id="message" name="message" placeholder="Write something" class="text-area"></textarea><br>
+            
+            <input type="button" value="Submit" onclick="validateForm()" class="submit">
+            <label for="submit" class="label" id="submit_success" class="success" onclick="validateForm()"></label>
+            <script src="../styles/form.js"></script>
+        </form>
+    </div>
+    
+</body>
+</html>
