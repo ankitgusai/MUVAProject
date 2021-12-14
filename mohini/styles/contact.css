@@ -62,7 +62,7 @@ button:hover, a:hover{
 }
 .q{
     margin-left: 10px;
-    width: 100%;
+    width: 95%;
     height: 100vh;
 }
 nav{
@@ -142,6 +142,16 @@ footer a {
         height: fit-content;
         width: 200px;
     }
+    .q1,.q2,.q3,.q4{
+        width: 300px;
+        height: 580px;
+    }
+    header h1 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: white;
+        margin: 0px;
+      }
 }
 /* laptop */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
@@ -217,7 +227,7 @@ footer a {
         border-radius: 5px;
     }
     
-    .card-font-base {
+    /*.card-font-base {
         font-family: 'Comfortaa',cursive;
         font-weight: bolder;
         color: #fff;
@@ -234,9 +244,10 @@ footer a {
         margin-left: auto;
         margin-right: auto;
     }
+    
     .card-one-headline {
-        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
         font-size: 35px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .card-one-hr {
@@ -257,5 +268,5 @@ footer a {
     
     .flex-grow {
         flex-grow: 1;
-    }
+    }*/
     
