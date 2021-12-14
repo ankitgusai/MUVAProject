@@ -4,6 +4,24 @@
     <title>My Skills</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles/skill.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip1").click(function(){
+    $("#panel1").slideDown("slow");
+  });
+});
+</script>
+
+<script> 
+    $(document).ready(function(){
+      $("#flip2").click(function(){
+        $("#panel2").slideDown("slow");
+      });
+    });
+    </script>
+    
 </head>
 <header>
     <h1>MUVA</h1>
@@ -18,12 +36,13 @@
 </nav>
 
 <body>
-    <h1>My Skills</h1>
-    <p>Look What I Can Do</p>
+    <div id="skill">My Skills</div>
+    <!--<p>Look What I Can Do</p>!-->
     
     <div class="row">
     <div class="col">
-        <h3>Hard Skills</h3>
+        <div id="flip1">Hard Skills</div>
+        <div id="panel1">this is what it looks like.</div>
         <div class="l1"> 
         <div class="content">
             <img src="images/html.png" alt="html">
@@ -77,7 +96,8 @@
     </div>
         
     <div class="col">
-    <h3>Soft Skills</h3>
+        <div id="flip2">Soft Skills</div>
+        <div id="panel2">this is what it looks like.</div>
         <div class="l1">
         <div class="content">
             <img src="images/time.jpg" alt="time management">
