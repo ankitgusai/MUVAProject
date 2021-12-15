@@ -183,8 +183,7 @@
   text-transform: uppercase;
 }
 
-
-.dynamic_data_container{
+.dynamic_data_container {
   display: flex;
   padding: 30px;
   width: 100%;
@@ -197,6 +196,10 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+
+.dynamic_loading_message_container .button_default {
+  padding: 15px;
 }
 
 /* (#FFA611), University Of Tennessee Orange (#F5820D) and Sunglow (#FFCB2B). */
